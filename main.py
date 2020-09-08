@@ -38,9 +38,7 @@ class RelatedWords(Resource):
                 word = w.find('a').text
 
                 results.append({
-                    'related_words': {
-                        'word': word,
-                    }
+                    'related_word': word,
                 })
 
         with open("data/data.json", "w") as writeJSON:
