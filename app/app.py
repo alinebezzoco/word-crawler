@@ -52,7 +52,7 @@ api.add_resource(RelatedWords, '/related_words')
 # A welcome message
 @app.route('/')
 def index():
-    return "<h1>Real-time word crawler API</h1>"
+    return "<h1>Real-time word crawler API with Beaufitulsoup and Flask</h1>"
 
 
 if __name__ == '__main__':
