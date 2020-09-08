@@ -1,4 +1,4 @@
-# Word Crawler API v1.0.0
+# Word Crawler API
 
 This a RESTful API using Flask and Beautifulsoup4 that performs a web crawler in a brazilian dictionary called Dicionário Criativo. 
 
