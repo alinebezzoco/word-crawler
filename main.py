@@ -9,7 +9,6 @@ import json
 app = Flask(__name__)
 api = Api(app)
 cors = CORS(app)
-app.config['CORS_HEADERS'] = 'Content-Type'
 
 
 class RelatedWords(Resource):
