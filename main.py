@@ -29,8 +29,6 @@ class RelatedWords(Resource):
 
         results = []
 
-        results.append({'name': word_query})
-
         for tag in tags:
             list = tag.find_all('li')
             for w in list:
