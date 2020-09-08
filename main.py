@@ -13,7 +13,7 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 
 
 class RelatedWords(Resource):
-    def post(self):
+    def get(self):
         parser = reqparse.RequestParser()
         parser.add_argument('term', required=True,
                             help='A search term needs to be provided')
