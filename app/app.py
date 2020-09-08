@@ -48,5 +48,5 @@ class RelatedWords(Resource):
 
 api.add_resource(RelatedWords, '/related_words')
 
-if __name__ == '__main__':
+if __name__ == '__app__':
     app.run(debug=True)
