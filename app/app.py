@@ -48,5 +48,12 @@ class RelatedWords(Resource):
 
 api.add_resource(RelatedWords, '/related_words')
 
-if __name__ == '__app__':
+
+# A welcome message
+@app.route('/')
+def index():
+    return "<h1>Real-time word crawler API</h1>"
+
+
+if __name__ == '__main__':
     app.run(debug=True)
